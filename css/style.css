@@ -100,7 +100,7 @@ b {
     width: 20px;
     height: auto;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
     /*background-color: firebrick;*/
     transform: rotate(-20deg);
@@ -116,6 +116,7 @@ p {
     width: 40px;
     margin-top: 40px;
     margin-left: 10px;
+    border: solid 1px white ;
   
 }
 /* ----------------------------- */
@@ -161,4 +162,67 @@ footer {
 
 /* ----------------------------- */
 /* ==adaptive web design */
+@media all and (max-width: 375px)
+    {
+        header {
+            width:100%;
+            height: 150px;
+            background: url(../img/index.png), url(../img/particles.png),url(../img/index_fond.png);
+            background-repeat: no-repeat;
+            background-position-x: center;
+            text-align: center;
+            background-size: 100%;
+        }
+        .logo {
+            width: 100px;
+            margin-top: 10px;
+        }
+        main {
+            width: 100%;
+           /* margin-right: auto;
+            margin-left: auto;*/
+        }
+           
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom:5px;
+        /*margin-right: auto;
+        margin-left: auto*/
+        width: 100%;
+    }
+
+    .divfoot {
+        width: 100%;
+        height: 150px;
+        /*margin-right:auto;
+        margin-left: auto; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .pfoot {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .postfoot {
+        width: 100%;
+        height: 80px;
+        color: gray;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        
+        font-size: 14px;
+       
+       
+    }
+    
+    } 
+ 
+
+
 /* ----------------------------- */
