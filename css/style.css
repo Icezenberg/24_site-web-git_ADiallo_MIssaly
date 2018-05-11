@@ -90,9 +90,6 @@ article {
     /*background-color:gray;*/ 
     width: 330px;
     height: 250px;
-
-
-
 }
 
 b {
@@ -179,10 +176,29 @@ footer {
         }
         main {
             width: 80%;
-          margin-right: auto;
+            margin-right: auto;
             margin-left: auto;
         }
-           
+        article {
+            /*background-color:gray;*/ 
+            width: 100%;
+            height: 250px;
+        }  
+        b {
+            display: block;
+            width: 20px;
+            height: auto;
+            text-align: center;
+            padding: 15px;
+            margin: 10px;
+            /*background-color: firebrick;*/
+            transform: rotate(-20deg);
+    }
+        p {
+            width: 90%;
+            height: auto;
+            padding-right: 10px;
+            padding-left: 10px;    }
     section {
         display: flex;
         flex-direction: column;
@@ -215,9 +231,7 @@ footer {
         text-align: center;
         /*display: flex;
         align-items: row;*/
-        
         font-size: 14px;
-       
        
     }
     
